@@ -1,0 +1,45 @@
+INFO  Validating config
+Inferno is in development mode.
+INFO  =======================================
+ ██╗ ██████╗ █████╗ ██████╗ ██╗   ██╗███████╗
+ ██║██╔════╝██╔══██╗██╔══██╗██║   ██║██╔════╝
+ ██║██║     ███████║██████╔╝██║   ██║███████╗
+ ██║██║     ██╔══██║██╔══██╗██║   ██║╚════██║
+ ██║╚██████╗██║  ██║██║  ██║╚██████╔╝███████║
+ ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+=============================================
+INFO  === Checking package dependencies ===
+INFO  === Checking theme configurations ===
+INFO  === Registering Hexo extensions ===
+FATAL Port 80 has been used. Try other port instead.
+FATAL {
+  err: Error: listen EADDRINUSE: address already in use :::80
+      at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+      at listenInCluster (node:net:1367:12)
+      at Server.listen (node:net:1454:7)
+      at /usr/local/blog_new/node_modules/hexo-server/lib/server.js:69:12
+      at Promise._execute (/usr/local/blog_new/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/usr/local/blog_new/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/usr/local/blog_new/node_modules/bluebird/js/release/promise.js:103:10)
+      at checkPort (/usr/local/blog_new/node_modules/hexo-server/lib/server.js:66:10)
+      at Hexo.module.exports (/usr/local/blog_new/node_modules/hexo-server/lib/server.js:18:10)
+      at Hexo.tryCatcher (/usr/local/blog_new/node_modules/bluebird/js/release/util.js:16:23)
+      at Hexo.<anonymous> (/usr/local/blog_new/node_modules/bluebird/js/release/method.js:15:34)
+      at /usr/local/blog_new/node_modules/hexo/lib/hexo/index.js:260:17
+      at Promise._execute (/usr/local/blog_new/node_modules/bluebird/js/release/debuggability.js:384:9)
+      at Promise._resolveFromExecutor (/usr/local/blog_new/node_modules/bluebird/js/release/promise.js:518:18)
+      at new Promise (/usr/local/blog_new/node_modules/bluebird/js/release/promise.js:103:10)
+      at Hexo.call (/usr/local/blog_new/node_modules/hexo/lib/hexo/index.js:256:12)
+      at /www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/dist/hexo.js:56:21
+      at tryCatcher (/www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (/www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (/www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (/www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+      at Promise._settlePromises (/www/server/nodejs/v16.8.0/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18) {
+    code: 'EADDRINUSE',
+    errno: -98,
+    syscall: 'listen',
+    address: '::',
+    port: 80
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
