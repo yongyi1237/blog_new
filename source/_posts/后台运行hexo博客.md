@@ -5,7 +5,7 @@
 ```cm
 npm install -g pm2
 ```
-
+<!-- more -->
 ## **第二步：编写启动文件 run.js并放在博客的根目录下**
 
 ```js

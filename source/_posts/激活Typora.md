@@ -7,6 +7,7 @@
 安装`Typora` 打开官网 下载并安装最新版即可
 
 <a href="https://typoraio.cn/">官网地址</a>
+<!-- more -->
 
 ## 2.修改配置文件
 
