@@ -149,6 +149,7 @@ comment:
     client_id: Iv23lienpVfGEbB9FoPD     # (required) OAuth application client id
     client_secret: dc6b3fa656a003fe0441583433c07d25e2fa1459 # (required) OAuth application client secret
     admin: ['yongyi1237']
+    id: 'yongyi1237'
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
