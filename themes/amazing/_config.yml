@@ -153,7 +153,7 @@ comment:
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
     has_latest_comment: true #是否有最新评论
-    proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
+    proxy: https://e9c72cd1.yong-57h.pages.dev/?https://github.com/login/oauth/access_token
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
