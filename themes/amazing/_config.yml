@@ -146,10 +146,9 @@ comment:
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
     owner: yongyi1237         # (required) GitHub user name
     repo: blog_new          # (required) GitHub repository name
-    client_id: Iv23lienpVfGEbB9FoPD     # (required) OAuth application client id
-    client_secret: dc6b3fa656a003fe0441583433c07d25e2fa1459 # (required) OAuth application client secret
+    client_id: Ov23liL5apackA3R6dHq     # (required) OAuth application client id
+    client_secret: 08d1f12b5b97571ae97a3d3c87f0ddc0e136c363 # (required) OAuth application client secret
     admin: ['yongyi1237']
-    id: '111'
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
