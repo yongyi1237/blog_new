@@ -24,11 +24,11 @@ server.on('error', (e) => {
   }
 });
 
-server.listen(80, () => {
+server.listen(443, () => {
   // 成功监听表示端口可用
   server.close(() => {
     // 启动Hexo服务器
-    exec('hexo server -p 80', (error, stdout, stderr) => {
+    exec('hexo server -p 443', (error, stdout, stderr) => {
       if (error) {
         console.log(`执行错误: ${error}`);
         return;
