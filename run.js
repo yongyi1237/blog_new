@@ -22,7 +22,7 @@ server.on('error', (e) => {
     console.log('错误：需要管理员权限才能使用80端口');
     process.exit(1);
   }
-});
+}); 
 
 server.listen(443, () => {
   // 成功监听表示端口可用
