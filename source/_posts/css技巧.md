@@ -1,3 +1,11 @@
+---
+abbrlink: ''
+categories: []
+date: ''
+tags: []
+title: ''
+updated: '2025-03-27T09:41:34.037+08:00'
+---
 # CSS技巧
 
 ## 1.显示两行
@@ -21,11 +29,10 @@
 }
 ```
 
+![20a7e53a8c9cd113a8848c2c079c094.jpg]()
+
 ## 2.换行
 
 ```css
 <div style="white-space: pre-line;  word-wrap: break-word;"  v-html="data.content"></div>
 ```
-
-
-
