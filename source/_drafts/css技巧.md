@@ -2,9 +2,10 @@
 abbrlink: ''
 categories: []
 date: ''
+excerpt: CSS技巧 1.显示两行 .truncate-two-lines {   /* 使用WebKit引擎的line-clamp截断到2行 */   display: -webkit-box;   -webkit-line-clamp: 2;      /* 核心属性：限制为2行 */   -webkit-box-orient: vertical;/* 必须搭配使用 */      /* 隐藏溢出内容 ...
 tags: []
 title: ''
-updated: '2025-03-27T09:41:34.037+08:00'
+updated: '2025-03-27T09:42:15.793+08:00'
 ---
 # CSS技巧
 
