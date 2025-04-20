@@ -1,3 +1,11 @@
+---
+abbrlink: ''
+categories: []
+date: ''
+tags: []
+title: ''
+updated: '2025-04-19T16:27:16.122+08:00'
+---
 # 后台运行hexo
 
 ## **第一步：服务器安装pm2**
@@ -5,7 +13,9 @@
 ```cm
 npm install -g pm2
 ```
+
 <!-- more -->
+
 ## **第二步：编写启动文件 run.js并放在博客的根目录下**
 
 ```js
@@ -26,7 +36,7 @@ exec('hexo server -p 80',(error, stdout, stderr) => {     //指定端口
 pm2 start run.js
 ```
 
-## **报错信息：**
+## **信息：**
 
 经过半个小时的搜索，终于解决了这个问题
 **注意：在安装的pm2的时候显示了安装路径 那我们要做的就是去安装路径重新安装**
@@ -39,4 +49,3 @@ ln -s /soft/nodejs/lib/node_modules/pm2/pm2 /usr/local/bin/    存在
 mv /usr/local/bin/pm2  /tmp/  删除
 ln -s /soft/nodejs/lib/node_modules/pm2/bin/pm2 /usr/local/bin/ 重新运行
 ```
-
