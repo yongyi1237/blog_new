@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+logo: https://adminyongyi.yongyi1239.top/img/2025-04/c979de273c4b40b68dc423948d0df6d1.png #/img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/favicon.png #/img/favicon.svg
+    favicon: https://adminyongyi.yongyi1239.top/img/2025-04/c979de273c4b40b68dc423948d0df6d1.png #/img/favicon.svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -22,7 +22,7 @@ head:
         url: https://removeif.github.io/
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        image: https://adminyongyi.yongyi1239.top/img/2025-04/c979de273c4b40b68dc423948d0df6d1.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 永已
@@ -162,12 +162,12 @@ donates:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+        qrcode: 'https://adminyongyi.yongyi1239.top/img/2025-04/f2148ee2db8e4c778d169e5d52ba2903.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+        qrcode: 'https://adminyongyi.yongyi1239.top/img/2025-04/ad4f91b11984450187c4ea3a39982001.jpg'
     # "Buy me a coffee" donate button configurations
 #    -
 #        type: buymeacoffee
@@ -229,30 +229,33 @@ widgets:
         # Author's current location
         location: 上海
         # URL or path to the avatar image
-        avatar: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        avatar: https://adminyongyi.yongyi1239.top/img/2025-04/c979de273c4b40b68dc423948d0df6d1.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/yongyi1237'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/removeif'
-            Weibo:
-                icon: fab fa-weibo
-                url: 'https://weibo.com/removeif'
-            Email:
-                icon: fa fa-envelope
-                url: 'mailto:removeif@163.com'
-            Next:
-                icon: fab fa-dribbble
-                url: 'https://removeif.github.io/remove.io'
-            RSS:
-                icon: fas fa-rss
-                url: /atom.xml
+                url: 'https://github.com/yongyi1237'
+            Gitee:
+                icon: fab fa-git
+                url: 'https://gitee.com/yongyi1239'
+            # Weibo:
+            #     icon: fab fa-weibo
+            #     url: 'https://weibo.com/removeif'
+            # Email:
+            #     icon: fa fa-envelope
+            #     url: 'mailto:removeif@163.com'
+            # Next:
+            #     icon: fab fa-dribbble
+            #     url: 'https://removeif.github.io/remove.io'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /atom.xml
         has_hitokoto: true
     # Recommendation links widget configurations
     -
